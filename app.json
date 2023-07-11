@@ -1,0 +1,41 @@
+{
+	"expo": {
+		"name": "MuviMama",
+		"slug": "Cinemon",
+		"version": "1.1.4",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "cover",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#FFFFFF"
+			},
+			"package": "com.cinemonadmin.cinemon",
+			"versionCode": 3
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "7987cf0c-1de7-471d-9094-1c70e8840717"
+			}
+		}
+	},
+	"react-native-google-mobile-ads": {
+		"android_app_id": "ANDROID_AD_APP_ID"
+	}
+}
